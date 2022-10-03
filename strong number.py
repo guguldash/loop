@@ -8,9 +8,9 @@ while number>0:
 	reminder=number%10
 	while i<=reminder:
 		factor=factor*i
-		i=i+1
+		i += 1
 	sum=sum+factor
-	number=number//10
+	number //= 10
 if sum==t:
 	print(t,'strong number')
 else:
