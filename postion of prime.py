@@ -10,7 +10,7 @@ while count<a:
 		j+=1
 	if f==2:
 		x=i
-		count=count+1
+		count += 1
 	i=i+1
 print(x)
 #position of prime number
